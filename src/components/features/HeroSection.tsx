@@ -100,7 +100,7 @@ export function HeroSection() {
 
                 {/* Desktop Photo (Hidden on mobile) */}
                 <motion.div
-                    className="w-full lg:w-5/12 max-w-md mx-auto hidden lg:block relative z-10"
+                    className="w-full lg:w-5/12 max-w-md mx-auto hidden lg:block relative z-10 lg:mt-20"
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
